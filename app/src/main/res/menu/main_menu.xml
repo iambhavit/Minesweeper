@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/reset" android:title="RESET" app:showAsAction="always"> </item>
+    <item android:id="@+id/size" android:title="Sizes" >
+      <menu>
+          <group android:checkableBehavior="single"  >
+        <item android:id="@+id/five" android:title="5X5" > </item>
+        <item android:id="@+id/ten" android:title="10X10"  android:checked="true"> </item>
+        <item android:id="@+id/twelve" android:title="12X12" > </item>
+          </group>
+     </menu>
+    </item>
+    <item android:title="Level">
+        <menu>
+            <group android:checkableBehavior="single"  >
+                <item android:id="@+id/easy" android:title="Easy" android:checked="true"> </item>
+                <item android:id="@+id/medium" android:title="Medium"  > </item>
+                <item android:id="@+id/hard" android:title="Hard" > </item>
+            </group>
+        </menu>
+    </item>
+
+</menu>
